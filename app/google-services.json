@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "815985335960",
+    "firebase_url": "https://eclectika-17.firebaseio.com",
+    "project_id": "eclectika-17",
+    "storage_bucket": "eclectika-17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815985335960:android:44f5672670f10f2e",
+        "android_client_info": {
+          "package_name": "aditya.eclectika17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815985335960-c01os62qbtgfcq3pd8r2kdesndvkj6nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq2g8EhIZB6SVDDKEguAQQ1HjGXpF0uik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

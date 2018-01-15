@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000">
+
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Creatives and Web"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#ffff"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nishant Chanda"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chanda@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 87179 01913"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anand Amrit Raj"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="anand@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 84638 26679"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aditya Basawatia"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aditya@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 81091 24060"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anamika Prasad"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="anamika@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 88787 25682"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sponsorship and Marketing"
+        android:textStyle="bold"
+        android:textColor="#ffff"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adarsh Humne"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="adarsh@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 81039 41457"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_weight="1"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ragashree Tiwari"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ragashree@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 97136 86924"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Public Relations"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#ffff"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lakshya Verma"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lakshya@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 80859 80708"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="14dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image10"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayush Pillai"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ayush@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 77250 77850"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            app:civ_border_width="3dp"
+            app:civ_border_color="#FFD700"
+            android:id="@+id/image9"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yugesh Sahu"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textSize="12dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yugesh@eclectika.org"
+            android:textColor="#ffffff"
+            android:autoLink="email"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textSize="12dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 89822 16202"
+            android:textColor="#ffffff"
+            android:autoLink="phone"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textSize="12dp"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Events and Management"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#ffff"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sashi Prakash"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shashi@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 74158 76966"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FFD700"
+                android:id="@+id/image8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K Alekhya"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alekhya@eclectika.org"
+                android:textColor="#ffffff"
+                android:autoLink="email"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 73893 89337"
+                android:textColor="#ffffff"
+                android:autoLink="phone"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

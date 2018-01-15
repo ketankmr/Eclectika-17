@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g4">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/schedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="events" />
+        <item
+            android:id="@+id/going"
+            android:icon="@drawable/going"
+            android:title="Going"
+            />
+        <item
+            android:id="@+id/qr_code"
+            android:icon="@drawable/qr"
+            android:title="QR Code" />
+
+        <item
+            android:id="@+id/artist"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Artist" />
+
+        <item
+            android:id="@+id/team"
+            android:icon="@drawable/team"
+            android:title="Our Team" />
+
+
+
+
+    </group>
+
+    <group android:id="@+id/group2">
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="logout" />
+
+
+    </group>
+
+</menu>

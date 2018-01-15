@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="1"
+    android:layout_columnWeight="1"
+
+
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FFD700"
+        android:id="@+id/grid_item_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fhjrxh"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="12dp"
+         />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fhjrxh"
+        android:textColor="#e0b973"
+        android:autoLink="email"
+        android:textColorLink="#e0b973"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="13dp"
+        />
+
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fhjrxh"
+        android:textColor="#e0b973"
+        android:autoLink="phone"
+        android:textColorLink="#e0b973"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="13dp"
+         />
+
+
+</LinearLayout>

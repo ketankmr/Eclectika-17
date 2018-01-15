@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/artists"
+        icon="@drawable/m"
+        title="Artists"
+        barColorWhenSelected="#5D4037" />
+    <tab
+        id="@+id/event"
+        barColorWhenSelected="#7B1FA2"
+
+        title="Events" />
+    <tab
+        id="@+id/Schedule"
+        barColorWhenSelected="#FF5252"
+
+        title="Schedule" />
+</tabs>

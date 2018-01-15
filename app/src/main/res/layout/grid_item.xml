@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:background="@drawable/grid_border"
+    android:layout_columnWeight="1"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="2dp"
+        />
+
+
+
+
+
+        <TextView
+            android:id="@+id/grid_item_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fhjrxh"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textSize="13dp"
+            android:textColor="#ffffff" />
+
+
+
+
+
+
+
+</FrameLayout>
